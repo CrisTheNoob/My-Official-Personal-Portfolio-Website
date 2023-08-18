@@ -15,6 +15,10 @@ body{
     background: #eff4fd;
 }
 
+section{
+    padding: 160px 15px 120px;
+}
+
 .hero{
     position: relative;
     width: 100%;
@@ -116,4 +120,45 @@ span{
 
 .images:hover .pic{
     bottom: 40px;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about-img{
+    margin-left: 200px;
+}
+
+.btn{
+    background: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    color: #000;
+    background-color: transparent;
+    border: 2px solid #000;
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.about-text h1{
+    font-size: 70px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: #555;
+    line-height: 22px;
 }
